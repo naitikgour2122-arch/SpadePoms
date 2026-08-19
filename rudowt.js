@@ -41,7 +41,7 @@ async function initBot() {
     try {
         const dbClient = new MongoClient(mongoUrl);
         await dbClient.connect();
-        const db = dbClient.db('godffpom');
+        const db = dbClient.db('rudowt');
         collection = db.collection('botStorage');
         console.log("✅ Connected to MongoDB successfully!");
 
