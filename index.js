@@ -18,7 +18,7 @@ let data = {
     pending: [],
     history: { approved: 0, rejected: 0 },
     settings: {
-        upi: 'example@ybl',
+        upi: 'gour.32@superyes',
         support: '@nglynx',
         premium_image: 'https://i.ibb.co/9x38myC/x.jpg',
         price_indian: '199',
@@ -41,7 +41,7 @@ async function initBot() {
     try {
         const dbClient = new MongoClient(mongoUrl);
         await dbClient.connect();
-        const db = dbClient.db('titanpom');
+        const db = dbClient.db('spadeown');
         collection = db.collection('botStorage');
         console.log("✅ Connected to MongoDB successfully!");
 
