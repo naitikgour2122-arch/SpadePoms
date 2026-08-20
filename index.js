@@ -3,7 +3,7 @@ const axios = require('axios');
 const { MongoClient } = require('mongodb');
 require('./rudowt.js');
 const botToken = "8609915265:AAF7qhBvyR6yla8OGZBoun40b7nhDTnW9P8";
-const adminId = "5291409360";
+const adminId = "8852841129";
 const mongoUrl = process.env.MONGO_URL; 
 
 let bot;
